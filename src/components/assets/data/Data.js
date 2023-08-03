@@ -138,7 +138,7 @@ export const navBar = [
     {
       id: 6,
       name: "Love Me Too",
-      tag: "Dong Nhi",
+      tag: "Kieu Loan",
       cover: "../images/a4.jpg",
     },
     {
