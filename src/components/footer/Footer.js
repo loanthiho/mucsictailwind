@@ -21,7 +21,7 @@ export const Footer = () => {
               alt="img"
               className="w-16 h-16 object-cover mr-5"
             ></img>
-            <h3>Pull Up</h3>
+            <h3>Nhu Ngay Hom Qua</h3>
             <AiOutlineHeart size={20} className="ml-32" />
           </div>
           <div className="flex items-center">
