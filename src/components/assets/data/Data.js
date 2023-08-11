@@ -25,19 +25,19 @@ export const hero1 = [
     id: 1,
     name: "New Album from Nouvelle",
     tag: "Nouvelle",
-    cover: "../images/d1.jpg",
+    cover: "../images/d1.png",
   },
   {
     id: 2,
     name: "Bind Me",
     tag: "Fifty",
-    cover: "../images/d2.jpg",
+    cover: "../images/d3.jpg",
   },
   {
     id: 3,
     name: "New Track from Pablo Nouvelle",
     tag: "Pablo Nouvelle",
-    cover: "../images/d3.jpg",
+    cover: "../images/d4.jpg",
   },
 ];
 export const hero2 = [

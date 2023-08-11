@@ -46,8 +46,8 @@ export const Hero = () => {
       <div className="w-full h-auto md:h-[92vh] md:flex md:justify-between">
         <div className="w-full h-full md:w-1/2">
           <Slider {...settings}>
-            {hero1.map((item) => (
-              <div className="box relative h-[92vh] sm:mt-16 w-full">
+            {hero1.map((item, index) => (
+              <div className="box relative h-[92vh] sm:mt-16 w-full" key={index}>
                 <img src={item.cover} alt="cover"className="w-full h-full object-cover"/>
                 <div className="text absolute top-0 left-0 text-white p-5">
                   <h3 className="text-xl font-semibold">{item.name}</h3>
@@ -68,8 +68,8 @@ export const Hero = () => {
           </Slider>
         </div>
         <div className="w-full h-full md:w-1/2 grid grid-cols-2 sm:grid-cols-1">
-        {hero2.map((item) => (
-              <div className="box relative ">
+        {hero2.map((item, index) => (
+              <div className="box relative " key={index}>
                 <img src={item.cover} alt="cover"className="w-full h-full object-cover"/>
                 <div className="text absolute top-0 left-0 text-white p-9">
                   <h3 className="text-xl font-semibold">{item.name}</h3>
@@ -89,6 +89,7 @@ export const Hero = () => {
             ))}
         </div>
       </div>
+      
     </section>
   );
 };

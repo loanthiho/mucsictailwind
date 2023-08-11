@@ -1,8 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Chart, Browser,  Home, Layout, Artists } from "./router";
-
-
-
+import {Artists,Browse,Browser, Chart,Header, Home, Layout,LayoutSidebar } from "./router";
 function App() {
   return (
     <>

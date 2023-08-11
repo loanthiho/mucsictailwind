@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react"
-import { Sidebar } from "../commen/Sidebar"
+import React, { useEffect, useState } from "react";
+import { Sidebar } from "../commen/Sidebar";
 
 export const LayoutSidebar = ({ children }) => {
   const [sidebarWidth, setSidebarWidth] = useState(undefined)
@@ -29,12 +29,13 @@ export const LayoutSidebar = ({ children }) => {
       sidebarEl.classList.remove("is-sticky")
     }
   }
+  const isResponsive = window.innerWidth < 1078;
   return (
     <>
       <main className='md:flex md:justify-between px-5 mt-8 h-[100vh]'>
         <div className='content w-full md:w-[73%]'>{children}</div>
         <div className='md:w-[25%] border-2 border-solid border-gray-100 rounded-xl p-5' style={{ width: sidebarWidth }}>
-          <Sidebar />
+          <Sidebar  />
         </div>
       </main>
     </>
