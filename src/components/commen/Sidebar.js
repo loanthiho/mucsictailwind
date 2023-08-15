@@ -18,8 +18,8 @@ export const Sidebar = () => {
         <h1 className="mb-5 text-lg font-semibold text-gray-600 mt-5">
           Go Mobile
         </h1>
-        <div className="flex justify-between">
-          <div className="bg-secondary text-white flex center px-2 py-0.5  rounded-md mb-2 md:mb-0 md:mr-1">
+        <div className="flex justify-between ">
+          <div className="bg-secondary text-white flex center px-2 py-0.5 rounded-md">
             <div>
               <AiFillApple size={30} />
             </div>

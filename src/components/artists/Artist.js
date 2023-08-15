@@ -10,11 +10,11 @@ export const Artist = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 sm:grid-cols-1 gap-3">
           {browse.map((item, i) => (
             <div className="box card text-center" key={i}>
-              <div className="img relative h-40 w-40 m-auto">
+              <div className="img relative h-40 w-40  m-auto">
                 <img
                   src={item.cover}
                   alt="cover"
-                  className="w-full h-full object-cover rounded-full"
+                  className="w-full h-full  object-cover rounded-full"
                 />
               </div>
               <div className="text-center">
