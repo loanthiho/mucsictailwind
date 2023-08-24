@@ -121,6 +121,4 @@ export const Header = () => {
       {isLoading && <div className="loading-overlay"></div>}
     </>
   );
-};
-
-
+}

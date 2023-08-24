@@ -71,7 +71,7 @@ export const Hero = () => {
         {hero2.map((item, index) => (
               <div className="box relative " key={index}>
                 <img src={item.cover} alt="cover"className="w-full h-full object-cover"/>
-                <div className="text absolute top-0 left-0 text-white p-9">
+                <div className="text absolute top-0 left-0 text-white p-5">
                   <h3 className="text-xl font-semibold">{item.name}</h3>
                   <span className="text-gray-400">{item.tag}</span>
                 </div>
