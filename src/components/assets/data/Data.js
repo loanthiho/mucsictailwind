@@ -25,7 +25,7 @@ export const hero1 = [
     id: 1,
     name: "New Album from Nouvelle",
     tag: "Nouvelle",
-    cover: "../images/d1.png",
+    cover: "../images/d1.jpg",
   },
   {
     id: 2,

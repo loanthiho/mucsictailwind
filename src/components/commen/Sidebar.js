@@ -19,7 +19,10 @@ export const Sidebar = () => {
           Go Mobile
         </h1>
         <div className="flex">
-          <div
+        <a
+            href="https://www.apple.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-secondary text-white flex center py-0.5 rounded-md"
             style={{ marginRight: "10px" }}
           >
@@ -30,8 +33,11 @@ export const Sidebar = () => {
               <span className="text-gray-300 text-[12px]">Download on the</span>
               <h1 className="text-md font-semibold">App Store</h1>
             </div>
-          </div>
-          <div
+          </a>
+          <a
+            href="https://play.google/play-pass/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-secondary text-white flex center  py-0.5 rounded-md"
             style={{ marginLeft: "10px" }}
           >
@@ -42,9 +48,8 @@ export const Sidebar = () => {
               <span className="text-gray-300 text-[11px]">Download on the</span>
               <h1 className="text-md font-semibold">Google Play</h1>
             </div>
-          </div>
+          </a>
         </div>
-
         <p className="text-sm mt-2">About Contact Legal Policy</p>
         <span className="text-gray-500 text-[11px]">© Copyright 2022</span>
       </section>
