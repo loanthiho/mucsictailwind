@@ -11,6 +11,11 @@
   color: #02b875; /* Màu mới khi hover */
   transition: 0.3s ease-in-out; /* Hiệu ứng chuyển màu mượt mà */
 }
+.hero::after {
+  content: "";
+  display: block;
+  height: 30px; /* Adjust the spacing height as needed */
+}
 
 .hero .overlay {
   opacity: 0;
@@ -30,6 +35,7 @@
   opacity: 1;
 }
 
+
 .is-sticky {
   position: fixed;
   top: 10px;
@@ -43,6 +49,20 @@
   }
 }
 
+@media (max-width: 848px) {
+  .sidebar {
+    order: 1; /* Đặt thứ tự xuất hiện của sidebar sau phần Artist */
+    margin-top: 20px; /* Tạo khoảng cách giữa phần Artist và sidebar */
+  }
+}
 
+@media (max-width: 923px) {
+  .artist-img {
+    width: 32px;
+    height: 32px;
+  }
+}
 
-
+#hero{
+  margin-top: 40px;
+  }
