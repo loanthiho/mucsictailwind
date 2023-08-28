@@ -67,7 +67,7 @@ export const Hero = () => {
             ))}
           </Slider>
         </div>
-        <div className="w-full h-full md:w-1/2 grid grid-cols-2 sm:grid-cols-1">
+        <div className="w-full h-full md:w-1/2 grid grid-cols-2 sm:grid-cols-1"  style={{ minHeight: "90vh" }}>
         {hero2.map((item, index) => (
               <div className="box relative " key={index}>
                 <img src={item.cover} alt="cover"className="w-full h-full object-cover"/>

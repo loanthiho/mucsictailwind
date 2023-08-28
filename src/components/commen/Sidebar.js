@@ -19,7 +19,7 @@ export const Sidebar = () => {
           Go Mobile
         </h1>
         <div className="flex">
-        <a
+          <a
             href="https://www.apple.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -30,7 +30,7 @@ export const Sidebar = () => {
               <AiFillApple size={30} />
             </div>
             <div className="ml-2">
-              <span className="text-gray-300 text-[12px]">Download on the</span>
+              <span className="text-gray-300 text-[10px]">Download on the</span>
               <h1 className="text-md font-semibold">App Store</h1>
             </div>
           </a>
@@ -45,7 +45,7 @@ export const Sidebar = () => {
               <IoPlaySharp size={30}  />
             </div>
             <div className="ml-2">
-              <span className="text-gray-300 text-[11px]">Download on the</span>
+              <span className="text-gray-300 text-[10px]">Download on the</span>
               <h1 className="text-md font-semibold">Google Play</h1>
             </div>
           </a>

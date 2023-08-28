@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineSearch } from "react-icons/ai";
 import { Link, NavLink, useNavigate } from "react-router-dom";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo.jpg";
 import profile from "../assets/images/st.jpg";
 import { navBar } from "../assets/data/Data";
 
