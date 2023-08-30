@@ -3,6 +3,7 @@ import { browse } from "../assets/data/Data"
 import { Card_lg } from "../commen/Card_lg"
 
 
+
 export const Browse = () => {
   return (
     <>
